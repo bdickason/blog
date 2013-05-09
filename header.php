@@ -28,6 +28,12 @@
 <!--[if lt IE 9]>
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
 <![endif]-->
+
+<!-- Prettify.js - Code Sexiness -->
+<link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri(); ?>/js/prettify.css" />
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/prettify.js"></script>
+<!-- /Prettify.js - End Sexiness -->
+
 <?php wp_head(); ?>
 </head>
 
