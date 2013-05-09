@@ -61,6 +61,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 body {
 	line-height: 1;
+	background-color: #fdf6e3;	
 }
 ol,
 ul {
@@ -483,16 +484,16 @@ hgroup {
 
 /* Body, links, basics */
 html {
-	font-size: 87.5%;
+	
 }
 body {
   /* Body Text */
 	font-family: Georgia, serif;
-	font-size: 1.19048em;
+	font-size: 1.3125em;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: normal;
-	line-height: 1.4em;
+	line-height: 1.52381em;
 	text-align: left;
 	text-rendering: optimizeLegibility;
 	color: #657b83;
@@ -549,7 +550,7 @@ a:hover {
 }
 .site-header h1,
 .site-header h2 {
-	text-align: center;
+
 }
 .site-header h1 a,
 .site-header h2 a {
