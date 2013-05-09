@@ -463,7 +463,7 @@ hgroup {
 	overflow: hidden;
 }
 .author-description p {
-	color: #757575;
+	color: #657b83;
 	font-size: 13px;
 	font-size: 0.928571429rem;
 	line-height: 1.846153846;
@@ -495,7 +495,7 @@ body {
 	line-height: 1.4em;
 	text-align: left;
 	text-rendering: optimizeLegibility;
-	color: #444;
+	color: #657b83;
 }
 a {
 	outline: none;
@@ -553,7 +553,7 @@ a:hover {
 }
 .site-header h1 a,
 .site-header h2 a {
-	color: #515151;
+	color: #657b83;
 	display: inline-block;
 	text-decoration: none;
 }
@@ -593,7 +593,7 @@ a:hover {
 	line-height: 1.42857143;
 }
 .main-navigation a {
-	color: #5e5e5e;
+	color: #93a1a1;
 }
 .main-navigation a:hover {
 	color: #21759b;
@@ -716,17 +716,17 @@ footer[role="contentinfo"] a:hover {
 	line-height: 1.846153846;
 	color: #757575;
 }
-.comments-link a,
+.comments-link a {
+  color: #b58900;
+}
 .entry-meta a {
-	color: #757575;
+	color: #268bd2;
 }
 .comments-link a:hover,
 .entry-meta a:hover {
 	color: #21759b;
 }
 article.sticky .featured-post {
-	border-top: 4px double #ededed;
-	border-bottom: 4px double #ededed;
 	color: #757575;
 	font-size: 13px;
 	font-size: 0.928571429rem;
@@ -950,7 +950,7 @@ img.aligncenter {
 	padding: 6px 10px 6px 0;
 }
 .site-content article {
-	border-bottom: 4px double #ededed;
+
 	margin-bottom: 72px;
 	margin-bottom: 5.142857143rem;
 	padding-bottom: 24px;
@@ -1463,8 +1463,6 @@ img#wpstats {
 	}
 	.main-navigation ul.nav-menu,
 	.main-navigation div.nav-menu > ul {
-		border-bottom: 1px solid #ededed;
-		border-top: 1px solid #ededed;
 		display: inline-block !important;
 		text-align: left;
 		width: 100%;
@@ -1480,7 +1478,7 @@ img#wpstats {
 	}
 	.main-navigation li a {
 		border-bottom: 0;
-		color: #6a6a6a;
+		color: #93a1a1;
 		line-height: 3.692307692;
 		text-transform: uppercase;
 		white-space: nowrap;
@@ -1511,7 +1509,6 @@ img#wpstats {
 	}
 	.main-navigation li ul li a {
 		background: #efefef;
-		border-bottom: 1px solid #ededed;
 		display: block;
 		font-size: 11px;
 		font-size: 0.785714286rem;
@@ -1530,7 +1527,7 @@ img#wpstats {
 	.main-navigation .current-menu-ancestor > a,
 	.main-navigation .current_page_item > a,
 	.main-navigation .current_page_ancestor > a {
-		color: #636363;
+		color: #93a1a1;
 		font-weight: bold;
 	}
 	.menu-toggle {
@@ -1597,8 +1594,6 @@ img#wpstats {
 	body .site {
 		padding: 0 40px;
 		padding: 0 2.857142857rem;
-		margin-top: 48px;
-		margin-top: 3.428571429rem;
 		margin-bottom: 48px;
 		margin-bottom: 3.428571429rem;
 	}
