@@ -489,11 +489,9 @@ html {
 body {
   /* Body Text */
 	font-family: Georgia, serif;
-	font-size: 1.3125em;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: normal;
-	line-height: 1.52381em;
 	text-align: left;
 	text-rendering: optimizeLegibility;
 	color: #657b83;
@@ -1423,8 +1421,43 @@ img#wpstats {
 /* =Media queries
 -------------------------------------------------------------- */
 
+/* Mobile Portrait */
+/* Max width of 320 pixels. */
+@media screen and (min-width: 320px) {
+	body {
+    font-size: 1.2em;
+    line-height: 1.5em
+	}
+	.site {
+	  margin: 0 auto;	  
+    max-width: 288px;
+    overflow: hidden;
+    
+	}
+}
+
+/* Mobile Portrait */
+/* Max width of 320 pixels. */
+@media screen and (min-width: 480px) {
+	body {
+    font-size: 1.2em;
+    line-height: 1.5em
+	}
+	.site {
+	  margin: 0 auto;	  
+    max-width: 432px;
+    overflow: hidden;
+    
+	}
+}
+
+/* Mobile Landscape, browser sized down */
 /* Minimum width of 600 pixels. */
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 767px) {
+  body {
+    font-size: 1.3125em;
+  	line-height: 1.52381em;
+  }
 	.author-avatar {
 		float: left;
 		margin-top: 8px;
@@ -1587,10 +1620,12 @@ img#wpstats {
 	}
 }
 
+/* Browser full sized */
 /* Minimum width of 960 pixels. */
 @media screen and (min-width: 960px) {
 	body {
-		background-color: #fdf6e3;
+		font-size: 1.3125em;
+  	line-height: 1.52381em;
 	}
 	body .site {
 		padding: 0 40px;
