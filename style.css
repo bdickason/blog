@@ -61,7 +61,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 body {
 	line-height: 1;
-	background-color: #fdf6e3;	
+	background-color: white;	
 }
 ol,
 ul {
@@ -415,8 +415,18 @@ img.wp-smiley,
 
 /* Navigation */
 hgroup {
-  width: 50%;
+	background-color: #32B196;
+	color: white;
+
+  width: 32%;
   float: left;
+  padding-left: 3%;
+  padding-right: 0;
+  margin-right: 0;
+}
+hgroup a {
+	color: white;
+	font-weight: normal;
 }
 .site-content nav {
 	clear: both;
@@ -498,7 +508,7 @@ body {
 }
 a {
 	outline: none;
-	color: #268bd2;
+	color: #32B196;
 }
 a:hover {
 	color: #6c71c4;
@@ -552,7 +562,7 @@ a:hover {
 }
 .site-header h1 a,
 .site-header h2 a {
-	color: #657b83;
+	color: white;
 	display: inline-block;
 	text-decoration: none;
 }
@@ -583,6 +593,14 @@ a:hover {
 .main-navigation {
   float:right;
 	text-align: center;
+	background-color: #253240;
+	width: 65%;
+	padding-bottom: 0.3%;
+}
+.main-navigation ul {
+	margin-left: 18%;
+	margin-right: 15%;
+	margin-top: 0.5%;
 }
 .main-navigation li {
 	margin-top: 24px;
@@ -716,10 +734,7 @@ footer[role="contentinfo"] a:hover {
 	color: #757575;
 }
 .comments-link a {
-  color: #b58900;
-}
-.entry-meta a {
-	color: #268bd2;
+  color: #268bd2;
 }
 .comments-link a:hover,
 .entry-meta a:hover {
@@ -1088,7 +1103,6 @@ article.format-link header {
 	font-style: italic;
 	text-transform: uppercase;
 	color: #848484;
-	background-color: #ebebeb;
 	border-radius: 3px;
 }
 article.format-link .entry-content {
@@ -1497,6 +1511,9 @@ img#wpstats {
 	}
 	.main-navigation ul.nav-menu,
 	.main-navigation div.nav-menu > ul {
+		margin-left:18%;
+		margin-right:15%;
+		margin-top:0.5%;
 		display: inline-block !important;
 		text-align: left;
 		width: 100%;
